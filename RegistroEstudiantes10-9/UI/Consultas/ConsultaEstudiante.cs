@@ -55,6 +55,11 @@ namespace RegistroEstudiantes10_9.UI.Consultas
             MydataGridView.DataSource = null;
             MydataGridView.DataSource = listado;
         }
+
+        private void ESTfiltro_SelectedIndexChanged(object sender, EventArgs e)
+        {
+
         }
+    }
     
 }

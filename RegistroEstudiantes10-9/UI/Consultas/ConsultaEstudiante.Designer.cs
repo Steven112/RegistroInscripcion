@@ -43,14 +43,14 @@
             // 
             // DesdeTimePicker1
             // 
-            this.DesdeTimePicker1.Location = new System.Drawing.Point(12, 35);
+            this.DesdeTimePicker1.Location = new System.Drawing.Point(12, 31);
             this.DesdeTimePicker1.Name = "DesdeTimePicker1";
-            this.DesdeTimePicker1.Size = new System.Drawing.Size(136, 20);
+            this.DesdeTimePicker1.Size = new System.Drawing.Size(200, 20);
             this.DesdeTimePicker1.TabIndex = 0;
             // 
             // HastadataTimer
             // 
-            this.HastadataTimer.Location = new System.Drawing.Point(218, 35);
+            this.HastadataTimer.Location = new System.Drawing.Point(218, 31);
             this.HastadataTimer.Name = "HastadataTimer";
             this.HastadataTimer.Size = new System.Drawing.Size(200, 20);
             this.HastadataTimer.TabIndex = 1;
@@ -63,16 +63,17 @@
             "ID",
             "Matricula",
             "Nombre"});
-            this.ESTfiltro.Location = new System.Drawing.Point(425, 33);
+            this.ESTfiltro.Location = new System.Drawing.Point(424, 32);
             this.ESTfiltro.Name = "ESTfiltro";
-            this.ESTfiltro.Size = new System.Drawing.Size(121, 21);
+            this.ESTfiltro.Size = new System.Drawing.Size(122, 21);
             this.ESTfiltro.TabIndex = 2;
+            this.ESTfiltro.SelectedIndexChanged += new System.EventHandler(this.ESTfiltro_SelectedIndexChanged);
             // 
             // EstCriteriotextBox
             // 
-            this.EstCriteriotextBox.Location = new System.Drawing.Point(553, 33);
+            this.EstCriteriotextBox.Location = new System.Drawing.Point(553, 32);
             this.EstCriteriotextBox.Name = "EstCriteriotextBox";
-            this.EstCriteriotextBox.Size = new System.Drawing.Size(100, 20);
+            this.EstCriteriotextBox.Size = new System.Drawing.Size(152, 20);
             this.EstCriteriotextBox.TabIndex = 3;
             // 
             // MydataGridView
@@ -104,7 +105,7 @@
             // Filtroqlabel
             // 
             this.Filtroqlabel.AutoSize = true;
-            this.Filtroqlabel.Location = new System.Drawing.Point(422, 8);
+            this.Filtroqlabel.Location = new System.Drawing.Point(421, 8);
             this.Filtroqlabel.Name = "Filtroqlabel";
             this.Filtroqlabel.Size = new System.Drawing.Size(29, 13);
             this.Filtroqlabel.TabIndex = 7;
@@ -121,11 +122,14 @@
             // 
             // EstBuscarbutton
             // 
-            this.EstBuscarbutton.Location = new System.Drawing.Point(686, 30);
+            this.EstBuscarbutton.Image = global::RegistroEstudiantes10_9.Properties.Resources.icons8_borrar_búsqueda_24;
+            this.EstBuscarbutton.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.EstBuscarbutton.Location = new System.Drawing.Point(711, 31);
             this.EstBuscarbutton.Name = "EstBuscarbutton";
-            this.EstBuscarbutton.Size = new System.Drawing.Size(102, 23);
+            this.EstBuscarbutton.Size = new System.Drawing.Size(77, 23);
             this.EstBuscarbutton.TabIndex = 9;
-            this.EstBuscarbutton.Text = "button1";
+            this.EstBuscarbutton.Text = "Buscar";
+            this.EstBuscarbutton.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
             this.EstBuscarbutton.UseVisualStyleBackColor = true;
             this.EstBuscarbutton.Click += new System.EventHandler(this.EstBuscarbutton_Click);
             // 
