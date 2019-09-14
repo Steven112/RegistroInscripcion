@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29215.179
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RegistroEstudiantes10-9", "RegistroEstudiantes10-9\RegistroEstudiantes10-9.csproj", "{0D6CE3AA-D4CC-4FCF-9DE0-356AC71CD0F4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RegistroEstudiantes10-9Tests", "RegistroEstudiantes10-9Tests\RegistroEstudiantes10-9Tests.csproj", "{CAA4020C-AB13-485F-9745-92C6F051F9C5}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0D6CE3AA-D4CC-4FCF-9DE0-356AC71CD0F4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0D6CE3AA-D4CC-4FCF-9DE0-356AC71CD0F4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0D6CE3AA-D4CC-4FCF-9DE0-356AC71CD0F4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0D6CE3AA-D4CC-4FCF-9DE0-356AC71CD0F4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CAA4020C-AB13-485F-9745-92C6F051F9C5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CAA4020C-AB13-485F-9745-92C6F051F9C5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CAA4020C-AB13-485F-9745-92C6F051F9C5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CAA4020C-AB13-485F-9745-92C6F051F9C5}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {E84F1391-7077-44A2-AC57-9C5B62728EF5}
+	EndGlobalSection
+EndGlobal
