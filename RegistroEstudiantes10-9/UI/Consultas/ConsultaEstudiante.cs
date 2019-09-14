@@ -60,6 +60,11 @@ namespace RegistroEstudiantes10_9.UI.Consultas
         {
 
         }
+
+        private void EstDesdelabel_Click(object sender, EventArgs e)
+        {
+
+        }
     }
     
 }

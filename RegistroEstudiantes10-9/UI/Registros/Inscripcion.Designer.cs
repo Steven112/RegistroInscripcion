@@ -107,7 +107,7 @@
             // Montolabel
             // 
             this.Montolabel.AutoSize = true;
-            this.Montolabel.Location = new System.Drawing.Point(13, 211);
+            this.Montolabel.Location = new System.Drawing.Point(14, 211);
             this.Montolabel.Name = "Montolabel";
             this.Montolabel.Size = new System.Drawing.Size(40, 13);
             this.Montolabel.TabIndex = 23;
@@ -145,9 +145,9 @@
             this.IncripcionIdlabel.AutoSize = true;
             this.IncripcionIdlabel.Location = new System.Drawing.Point(13, 6);
             this.IncripcionIdlabel.Name = "IncripcionIdlabel";
-            this.IncripcionIdlabel.Size = new System.Drawing.Size(68, 13);
+            this.IncripcionIdlabel.Size = new System.Drawing.Size(73, 13);
             this.IncripcionIdlabel.TabIndex = 19;
-            this.IncripcionIdlabel.Text = "Incripcion Id:";
+            this.IncripcionIdlabel.Text = "Inscripcion Id:";
             // 
             // MyerrorProvider
             // 

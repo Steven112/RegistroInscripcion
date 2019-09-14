@@ -81,17 +81,18 @@
             this.MydataGridView.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.MydataGridView.Location = new System.Drawing.Point(12, 61);
             this.MydataGridView.Name = "MydataGridView";
-            this.MydataGridView.Size = new System.Drawing.Size(776, 385);
+            this.MydataGridView.Size = new System.Drawing.Size(776, 377);
             this.MydataGridView.TabIndex = 4;
             // 
             // EstDesdelabel
             // 
             this.EstDesdelabel.AutoSize = true;
-            this.EstDesdelabel.Location = new System.Drawing.Point(12, 8);
+            this.EstDesdelabel.Location = new System.Drawing.Point(9, 8);
             this.EstDesdelabel.Name = "EstDesdelabel";
             this.EstDesdelabel.Size = new System.Drawing.Size(38, 13);
             this.EstDesdelabel.TabIndex = 5;
             this.EstDesdelabel.Text = "Desde";
+            this.EstDesdelabel.Click += new System.EventHandler(this.EstDesdelabel_Click);
             // 
             // Hastaalabel
             // 
@@ -149,7 +150,7 @@
             this.Controls.Add(this.HastadataTimer);
             this.Controls.Add(this.DesdeTimePicker1);
             this.Name = "ConsultaEstudiante";
-            this.Text = "ConsultaEstudiante";
+            this.Text = "Consulta Estudiante";
             ((System.ComponentModel.ISupportInitialize)(this.MydataGridView)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();

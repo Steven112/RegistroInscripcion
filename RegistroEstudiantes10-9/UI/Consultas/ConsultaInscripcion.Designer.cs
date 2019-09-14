@@ -155,7 +155,7 @@
             this.Controls.Add(this.ConsultadataINSGridView);
             this.Controls.Add(this.DesdedateINSTimePicker);
             this.Name = "ConsultaInscripcion";
-            this.Text = "ConsultaInscripcion";
+            this.Text = "Consulta Inscripcion";
             ((System.ComponentModel.ISupportInitialize)(this.ConsultadataINSGridView)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
